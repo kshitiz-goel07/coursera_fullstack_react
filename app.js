@@ -1,27 +1,16 @@
-console.log("hello");
-console.log(123);
-var a="hi dear";
-console.log(a);
-console.log([1,2,3]);
-console.log({a:1,b:2});
-console.table([1,,4,7])
+// LET , VAR , CONST 
+// let name = 'arpit'
+// console.log(name);
+// name ="rajendra";
+// console.log(name);
 
-console.error("error hai");
-console.warn('warning hai');
-console.time();
-console.log("hello");
-console.log(123);console.log("hello");
-console.log(123);console.log("hello");
-console.log(123);console.log("hello");
-console.log(123);console.log("hello");
-console.log(123);console.log("hello");
-console.log(123);console.log("hello");
-console.log(123);console.log("hello");
-console.log(123);console.log("hello");
-console.log(123);console.log("hello");
-console.log(123);console.log("hello");
-console.log(123);console.log("hello");
-console.log(123);console.log("hello");
-console.log(123);console.log("hello");
-console.log(123);
-console.timeEnd();
+// const name = 'arpit';
+// console.log(name);
+// name = "kshitiz";
+// console.log(name);
+
+const person = {
+name : "arpit"
+}
+person.name = "kshitiz";
+console.log(person);
