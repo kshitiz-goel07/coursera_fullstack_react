@@ -1,7 +1,9 @@
-var a=5;
+const num1 = 100;
+const num2 = 60 ;
 
-a=(5).toString();
+val = num1 + num2;
 
-console.log(a);
-console.log(typeof a);
-console.log(a.length);
+val=Math.floor(Math.PI);
+
+
+console.log(val);
