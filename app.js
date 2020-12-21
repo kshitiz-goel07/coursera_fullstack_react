@@ -1,8 +1,9 @@
 // FUNCTION DECLERATION
 
 function greet(){
-    console.log('hello');
+    // console.log('hello');
+    return 'hello';
 
 }
 
-greet();
+console.log(greet());
