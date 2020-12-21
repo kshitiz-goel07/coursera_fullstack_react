@@ -1,9 +1,9 @@
 // FUNCTION DECLERATION
 
-function greet(firstName , lastName){
+function greet(firstName='kshitiz' , lastName='goel'){
     // console.log('hello');
     return 'hello' +' '+ firstName + ' ' + lastName;
 
 }
 
-console.log(greet('kshitiz', 'goel'));
+console.log(greet('rajendra','gupta'));
