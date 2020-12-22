@@ -13,3 +13,20 @@ const square = function(x=1){
 }
 
 console.log(square(4));
+
+const todo = {
+    add : function(){
+        console.log("add todo");
+    },
+    edit : function(id){
+        console.log(`edit todo ${id}`);
+    }
+}
+
+todo.delete=function(){
+    console.log("delete it");
+}
+
+todo.add();
+todo.edit(12);
+todo.delete();
