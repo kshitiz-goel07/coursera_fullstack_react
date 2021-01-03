@@ -1,32 +1,17 @@
-// FUNCTION DECLERATION
-
-function greet(firstName='kshitiz' , lastName='goel'){
-    // console.log('hello');
-    return 'hello' +' '+ firstName + ' ' + lastName;
-
-}
-
-console.log(greet('rajendra','gupta'));
-
-const square = function(x=1){
-    return x*x;
-}
-
-console.log(square(4));
-
-const todo = {
-    add : function(){
-        console.log("add todo");
-    },
-    edit : function(id){
-        console.log(`edit todo ${id}`);
+//  FOR LOOP 
+for(let i = 0 ; i < 10 ; i++)
+{
+    if (i === 3)
+    {
+        console.log('number 3 is my fav');
+        continue;
     }
-}
 
-todo.delete=function(){
-    console.log("delete it");
-}
+    if(i === 6)
+    {
+        console.log('Time to stop the loop');
+        break;
+    }
+    console.log('number is '+ i);
 
-todo.add();
-todo.edit(12);
-todo.delete();
+}
