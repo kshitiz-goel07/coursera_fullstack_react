@@ -1,2 +1,3 @@
-const input=prompt();
-alert(input);
+if(confirm('Are you sure ?')){
+    console.log('YES');
+}
